@@ -15,7 +15,7 @@
         android:layout_marginTop="16dp"
         android:layout_marginEnd="8dp"
         android:ems="10"
-        android:hint="123"
+        android:hint="@string/enter_your_first_number"
         android:inputType="number"
         android:minHeight="48dp"
         app:layout_constraintEnd_toEndOf="parent"
@@ -30,7 +30,7 @@
         android:layout_marginTop="16dp"
         android:layout_marginEnd="8dp"
         android:ems="10"
-        android:hint="123"
+        android:hint="@string/enter_your_second_number"
         android:inputType="number"
         android:minHeight="48dp"
         app:layout_constraintEnd_toEndOf="parent"
@@ -45,7 +45,7 @@
         android:layout_marginTop="16dp"
         android:layout_marginEnd="24dp"
         android:layout_marginBottom="16dp"
-        android:text="Calculator"
+        android:text="@string/my_calculator"
         app:layout_constraintBottom_toTopOf="@+id/etnumber1"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -58,7 +58,7 @@
         android:layout_marginStart="16dp"
         android:layout_marginTop="24dp"
         android:layout_marginEnd="16dp"
-        android:text="results"
+        android:text="@string/results"
         android:textAlignment="center"
         android:textAppearance="@style/TextAppearance.AppCompat.Medium"
         android:textColor="#131313"
@@ -73,7 +73,7 @@
         android:layout_marginStart="80dp"
         android:layout_marginTop="148dp"
         android:layout_marginEnd="8dp"
-        android:text="Add"
+        android:text="@string/add"
         app:layout_constraintEnd_toStartOf="@+id/btnSubtract"
         app:layout_constraintHorizontal_bias="0.43"
         app:layout_constraintStart_toStartOf="parent"
@@ -85,8 +85,9 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="148dp"
         android:layout_marginEnd="80dp"
-        android:text="Subtract"
+        android:text="@string/subtract"
         app:layout_constraintEnd_toEndOf="parent"
+
         app:layout_constraintTop_toBottomOf="@+id/tvResults" />
 
     <androidx.constraintlayout.widget.Guideline
@@ -102,7 +103,8 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="80dp"
         android:layout_marginTop="16dp"
-        android:text="Multiply"
+        android:text="@string/multiply"
+        android:textColor="#F8F5F5"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/btnAdd" />
 
@@ -112,7 +114,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="16dp"
         android:layout_marginEnd="80dp"
-        android:text="Modulus"
+        android:text="@string/modulus"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/btnSubtract" />
 

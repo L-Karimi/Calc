@@ -1,3 +1,11 @@
 <resources>
     <string name="app_name">MyCalculator</string>
+    <string name="modulus">Modulus</string>
+    <string name="multiply">Multiply</string>
+    <string name="subtract">Subtract</string>
+    <string name="add">Add</string>
+    <string name="results">results</string>
+    <string name="my_calculator">My Calculator</string>
+    <string name="enter_your_second_number">Enter your second number</string>
+    <string name="enter_your_first_number">Enter your first number</string>
 </resources>
